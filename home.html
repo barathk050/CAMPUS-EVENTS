@@ -30,6 +30,17 @@
             <button id="btn">Explore Events</button>
         </div>
     </div>
+    <script>
+        function showmessage(){
+            alert("To the event page")
+        }
+        function welcome(){
+            alert("To the event page 2")
+        }
+        const button=document.getElementById("btn");
+        button.addEventListener("click",showmessage)
+        button.addEventListener("click",welcome)
+    </script>
     <div id="fep">
         <h1>Featured Events</h1>
 
@@ -105,6 +116,7 @@
                 </div>
             </div>
         </div>
+        
         <p class="footer-credit">&copy; 2026 Campus Events. All rights reserved.</p>
     </footer>
 </body>
