@@ -19,7 +19,40 @@
             </ul>
         </nav>
     </header>
-    <main><h2>Register for an Event</h2></main>
+    <main class="page-main">
+        <section class="page-intro">
+            <p class="eyebrow">Save your spot</p>
+            <h2>Register for an event.</h2>
+            <p>Choose an event and enter your details below.</p>
+        </section>
+        <form id="registration-form" class="registration-form">
+            <div class="form-field">
+                <label for="student-name">Your name</label>
+                <input id="student-name" name="studentName" type="text" autocomplete="name" required>
+            </div>
+            <div class="form-field">
+                <label for="student-email">Email address</label>
+                <input id="student-email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="form-field form-field-wide">
+                <label for="event-choice">Choose an event</label>
+                <select id="event-choice" name="event" required>
+                    <option value="">Select an event</option>
+                    <option value="innovation-fair">Campus Innovation Fair</option>
+                    <option value="open-mic">Open Mic on the Quad</option>
+                    <option value="app-workshop">Design Your First App</option>
+                    <option value="campus-cup">Friendly Campus Cup</option>
+                </select>
+            </div>
+            <div class="form-field form-field-wide">
+                <label for="registration-note">Note for the organizers <span>(optional)</span></label>
+                <textarea id="registration-note" name="note" rows="4"></textarea>
+            </div>
+            <p class="form-disclaimer">This is a demo form. Your registration is not sent or saved.</p>
+            <button class="form-submit" type="submit">Confirm registration</button>
+            <p id="registration-message" class="registration-message" role="status" aria-live="polite"></p>
+        </form>
+    </main>
     <footer class="site-footer">
         <div class="footer-content">
             <div class="footer-about"><h2>Campus Events</h2><p>Discover, participate, and grow with your campus community.</p></div>
@@ -33,5 +66,6 @@
         </div>
         <p class="footer-credit">&copy; 2026 Campus Events. All rights reserved.</p>
     </footer>
+    <script src="script.js" defer></script>
 </body>
 </html>

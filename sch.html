@@ -19,7 +19,27 @@
             </ul>
         </nav>
     </header>
-    <main><h2>Event Schedule</h2></main>
+    <main class="page-main">
+        <section class="page-intro">
+            <p class="eyebrow">Plan your week</p>
+            <h2>Event schedule.</h2>
+            <p>Pick a date, find your place, and make room for something different.</p>
+        </section>
+        <div class="schedule-wrap">
+            <table class="schedule-table">
+                <thead>
+                    <tr><th scope="col">Date</th><th scope="col">Time</th><th scope="col">Event</th><th scope="col">Location</th><th scope="col">Category</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><time datetime="2026-10-24">Oct 24, 2026</time></td><td>10:00 AM</td><td><a href="register.html?event=innovation-fair">Campus Innovation Fair</a></td><td>Innovation Hall</td><td>Technology</td></tr>
+                    <tr><td><time datetime="2026-10-29">Oct 29, 2026</time></td><td>5:30 PM</td><td><a href="register.html?event=open-mic">Open Mic on the Quad</a></td><td>Central Quad</td><td>Culture</td></tr>
+                    <tr><td><time datetime="2026-11-04">Nov 4, 2026</time></td><td>2:00 PM</td><td><a href="register.html?event=app-workshop">Design Your First App</a></td><td>Library Studio</td><td>Workshop</td></tr>
+                    <tr><td><time datetime="2026-11-08">Nov 8, 2026</time></td><td>1:00 PM</td><td><a href="register.html?event=campus-cup">Friendly Campus Cup</a></td><td>South Field</td><td>Sports</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="schedule-note">All dates and event details shown here are sample content for this website.</p>
+    </main>
     <footer class="site-footer">
         <div class="footer-content">
             <div class="footer-about"><h2>Campus Events</h2><p>Discover, participate, and grow with your campus community.</p></div>
@@ -33,5 +53,6 @@
         </div>
         <p class="footer-credit">&copy; 2026 Campus Events. All rights reserved.</p>
     </footer>
+    <script src="script.js" defer></script>
 </body>
 </html>

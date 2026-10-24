@@ -60,12 +60,12 @@
 // const hasLargeValue = scores.some((n) => n > 20);
 // console.log(hasLargeValue);
 
-const employee = {
-    name: "Arun",
-    age: 21,
-    course: "React",
-    kum:{city:"chennai"}
-};
+// const employee = {
+//     name: "Arun",
+//     age: 21,
+//     course: "React",
+//     kum:{city:"chennai"}
+// };
 
 // const { name, age, course } = employee;
 // console.log(name);
@@ -102,3 +102,52 @@ const employee = {
 // console.log(false || true);
 // console.log(false ?? true);
 
+// const a
+// console.log(a)
+// a=10
+
+// Greet();
+// function Greet(){
+//     console.log("fosf")
+// }
+// const res = () => console.log("fsfsdfe")
+
+// function Account(){
+//     let balance=1000;
+//     function Deposit(amount){
+//         balance=balance+amount
+//         console.log("BalanceAmount"+balance);
+
+//     }
+//     return Deposit
+// }
+// const MyAccount=Account();
+// MyAccount(500);
+// MyAccount(700);
+
+// console.log("a")
+// for(let i=0;i<10;i++){
+//     console.log("fnish")
+// }
+
+// setTimeout (function(){
+//     console.log("SET READY")
+// },2000);
+// console.log("end")
+
+// const myPromise = new Promise(function (resolve, reject) {
+//     let paySuccess=true
+//     if (paySuccess){
+//         resolve("Payment Success")
+//     }
+//     else{
+//         reject("Payment failed")
+//     }
+// });
+// myPromise
+//     .then(function(result){
+//     console.log(result);
+//     })
+//     .catch(function(error){
+//     console.log(error);
+// });
